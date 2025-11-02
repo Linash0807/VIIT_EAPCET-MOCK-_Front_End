@@ -4,11 +4,13 @@ import SideBar from "./components/SideBar";
 
 export default function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <NavBarMain />
-      <SideBar/>
-      <br />
+
+      
+        <SideBar />
+
       <Footer />
-    </>
+    </div>
   );
 }
